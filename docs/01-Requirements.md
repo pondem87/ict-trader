@@ -12,4 +12,9 @@
     - uptrend and downtrend
     - break of structure (BOS)
     - fair value gap (FVG)
-    - 
+    - order blocks (OB)
+    - breaker blocks (BB)
+    - supply zone and demand zone
+- identify market structures for multiple time frames simultaneously
+- 
+
