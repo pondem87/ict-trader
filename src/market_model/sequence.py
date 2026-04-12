@@ -1,7 +1,7 @@
 from typing import List
 
-from modules.market_model.candlestick import Candlestick
-from modules.market_model.timeframe import Timeframe
+from market_model.candlestick import Candlestick
+from market_model.timeframe import Timeframe
 
 class Sequence:
     """
@@ -116,6 +116,9 @@ class Sequence:
                 start = mid + 1
             else:
                 end = mid - 1
+
+        start = 0
+        end = len(candlesticks) - 1
 
         if to_timestamp is not None:
              while start <= end:

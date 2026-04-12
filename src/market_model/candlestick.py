@@ -1,4 +1,4 @@
-from modules.ict_structures.candlestick_protocol import CandlestickProtocol
+from ict_structures.candlestick_protocol import CandlestickProtocol
 
 class Candlestick(CandlestickProtocol):
     """
